@@ -22,7 +22,7 @@
             command: 'cat',
             envVars: [
                 envVar(key: 'GITHUB_TOKEN', value: env.GITHUB_TOKEN),
-                envVar(key: 'DOCKER_HOST', value: 'tcp://dind.docker:2375')])
+                envVar(key: 'DOCKER_HOST', value: 'tcp://dind.devops:2375')])
             ]
     ) {
 
