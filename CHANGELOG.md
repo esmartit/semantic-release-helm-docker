@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.2](https://github.com/esmartit/semantic-release-helm-docker/compare/v1.0.1...v1.0.2) (2020-03-11)
+
+
+### Bug Fixes
+
+* adjusting pipeline ([3006681](https://github.com/esmartit/semantic-release-helm-docker/commit/30066813efedb4861feabcfbde56b4f3e75d8817))
+
 ## [1.0.1](https://github.com/esmartit/semantic-release-helm-docker/compare/v1.0.0...v1.0.1) (2020-03-11)
 
 
