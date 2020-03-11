@@ -34,9 +34,10 @@
                     checkout scm
                 }
 
-                stage('Prepare release') {
-//                     sh "chmod +x prepare-release.sh"
-                    sh "npx semantic-release"
+                if(env.BRANCH_NAME=='master'){
+                    stage('Semantic Release') {
+                        sh "npx semantic-release"
+                    }
                 }
             }
         }
