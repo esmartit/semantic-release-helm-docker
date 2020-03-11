@@ -35,7 +35,7 @@
                 }
 
                 stage('Prepare release') {
-                    sh "chmod +x prepare-release.sh"
+//                     sh "chmod +x prepare-release.sh"
                     sh "npx semantic-release"
                 }
             }
